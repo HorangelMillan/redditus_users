@@ -1,0 +1,13 @@
+{
+    "ui5": {
+        "ui5parser": {
+            "ui5version": "1.109.3",
+            "dataSource": "https://sapui5.hana.ondemand.com/",
+            "rejectUnauthorized": true
+        },
+        "ui5linter": {
+            "idNamingPattern": "",
+            "eventNamingPattern": ""
+        }
+    }
+}

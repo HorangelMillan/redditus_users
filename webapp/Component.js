@@ -2,17 +2,14 @@
  * eslint-disable @sap/ui5-jsdocs/no-jsdoc
  */
 
-sap.ui.define([
-        "sap/ui/core/UIComponent",
-        "sap/ui/Device",
-        "com/redditus/users/model/models"
-    ],
+sap.ui.define(
+    ["sap/ui/core/UIComponent", "sap/ui/Device", "com/redditus/users/model/models"],
     function (UIComponent, Device, models) {
         "use strict";
 
         return UIComponent.extend("com.redditus.users.Component", {
             metadata: {
-                manifest: "json"
+                manifest: "json",
             },
 
             /**
@@ -29,7 +26,7 @@ sap.ui.define([
 
                 // set the device model
                 this.setModel(models.createDeviceModel(), "device");
-            }
+            },
         });
-    }
+    },
 );
